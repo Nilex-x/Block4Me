@@ -1,0 +1,9 @@
+[
+ { "id": 1000, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||youtube.com/pagead/", "resourceTypes": ["script", "image", "xmlhttprequest", "ping", "sub_frame", "other"] } },
+ { "id": 1001, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||youtube.com/api/stats/ads", "resourceTypes": ["script", "image", "xmlhttprequest", "ping", "other"] } },
+ { "id": 1002, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||youtube.com/ptracking", "resourceTypes": ["script", "image", "xmlhttprequest", "ping", "other"] } },
+ { "id": 1003, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||youtube.com/get_midroll_", "resourceTypes": ["script", "xmlhttprequest", "other"] } },
+ { "id": 1004, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||youtube.com/youtubei/v1/log_event", "resourceTypes": ["xmlhttprequest", "ping", "other"] } },
+ { "id": 1005, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||googleads.g.doubleclick.net^", "resourceTypes": ["script", "image", "xmlhttprequest", "ping", "sub_frame", "other"] } },
+ { "id": 1006, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "||static.doubleclick.net^", "resourceTypes": ["script", "image", "xmlhttprequest", "ping", "sub_frame", "other"] } }
+]

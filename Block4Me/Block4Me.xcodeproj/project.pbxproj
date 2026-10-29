@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A385501308B8DAF0002C19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A385500308B8DAF0002C19E /* AppDelegate.swift */; };
+		2A385505308B8DAF0002C19E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2A385503308B8DAF0002C19E /* Main.html */; };
+		2A385507308B8DAF0002C19E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A385506308B8DAF0002C19E /* Icon.png */; };
+		2A385509308B8DAF0002C19E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2A385508308B8DAF0002C19E /* Style.css */; };
+		2A38550B308B8DAF0002C19E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A38550A308B8DAF0002C19E /* Script.js */; };
+		2A38550D308B8DAF0002C19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38550C308B8DAF0002C19E /* ViewController.swift */; };
+		2A385510308B8DAF0002C19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A38550E308B8DAF0002C19E /* Main.storyboard */; };
+		2A385512308B8DB10002C19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A385511308B8DB10002C19E /* Assets.xcassets */; };
+		2A385519308B8DB10002C19E /* Block4Me Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A385518308B8DB10002C19E /* Block4Me Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A38551E308B8DB10002C19E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38551D308B8DB10002C19E /* SafariWebExtensionHandler.swift */; };
+		2A385531308B8DB10002C19E /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552A308B8DB10002C19E /* popup */; };
+		2A385532308B8DB10002C19E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552B308B8DB10002C19E /* background.js */; };
+		2A385533308B8DB10002C19E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552C308B8DB10002C19E /* images */; };
+		2A385534308B8DB10002C19E /* content in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552D308B8DB10002C19E /* content */; };
+		2A385535308B8DB10002C19E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552E308B8DB10002C19E /* manifest.json */; };
+		2A385536308B8DB10002C19E /* rules in Resources */ = {isa = PBXBuildFile; fileRef = 2A38552F308B8DB10002C19E /* rules */; };
+		2A385537308B8DB10002C19E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2A385530308B8DB10002C19E /* _locales */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A38551A308B8DB10002C19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3854F5308B8DAF0002C19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A385517308B8DB10002C19E;
+			remoteInfo = "Block4Me Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A385525308B8DB10002C19E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A385519308B8DB10002C19E /* Block4Me Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A3854FD308B8DAF0002C19E /* Block4Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Block4Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A385500308B8DAF0002C19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A385504308B8DAF0002C19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		2A385506308B8DAF0002C19E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2A385508308B8DAF0002C19E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		2A38550A308B8DAF0002C19E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		2A38550C308B8DAF0002C19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A38550F308B8DAF0002C19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A385511308B8DB10002C19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A385513308B8DB10002C19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A385518308B8DB10002C19E /* Block4Me Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Block4Me Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A38551D308B8DB10002C19E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2A38551F308B8DB10002C19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A38552A308B8DB10002C19E /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = ../../extension/popup; sourceTree = "<group>"; };
+		2A38552B308B8DB10002C19E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension/background.js; sourceTree = "<group>"; };
+		2A38552C308B8DB10002C19E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../extension/images; sourceTree = "<group>"; };
+		2A38552D308B8DB10002C19E /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content; path = ../../extension/content; sourceTree = "<group>"; };
+		2A38552E308B8DB10002C19E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+		2A38552F308B8DB10002C19E /* rules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rules; path = ../../extension/rules; sourceTree = "<group>"; };
+		2A385530308B8DB10002C19E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../extension/_locales; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3854FA308B8DAF0002C19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A385515308B8DB10002C19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3854F4308B8DAF0002C19E = {
+			isa = PBXGroup;
+			children = (
+				2A3854FF308B8DAF0002C19E /* Block4Me */,
+				2A38551C308B8DB10002C19E /* Block4Me Extension */,
+				2A3854FE308B8DAF0002C19E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3854FE308B8DAF0002C19E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3854FD308B8DAF0002C19E /* Block4Me.app */,
+				2A385518308B8DB10002C19E /* Block4Me Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3854FF308B8DAF0002C19E /* Block4Me */ = {
+			isa = PBXGroup;
+			children = (
+				2A385500308B8DAF0002C19E /* AppDelegate.swift */,
+				2A38550C308B8DAF0002C19E /* ViewController.swift */,
+				2A38550E308B8DAF0002C19E /* Main.storyboard */,
+				2A385511308B8DB10002C19E /* Assets.xcassets */,
+				2A385513308B8DB10002C19E /* Info.plist */,
+				2A385502308B8DAF0002C19E /* Resources */,
+			);
+			path = Block4Me;
+			sourceTree = "<group>";
+		};
+		2A385502308B8DAF0002C19E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A385503308B8DAF0002C19E /* Main.html */,
+				2A385506308B8DAF0002C19E /* Icon.png */,
+				2A385508308B8DAF0002C19E /* Style.css */,
+				2A38550A308B8DAF0002C19E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A38551C308B8DB10002C19E /* Block4Me Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2A385529308B8DB10002C19E /* Resources */,
+				2A38551D308B8DB10002C19E /* SafariWebExtensionHandler.swift */,
+				2A38551F308B8DB10002C19E /* Info.plist */,
+			);
+			path = "Block4Me Extension";
+			sourceTree = "<group>";
+		};
+		2A385529308B8DB10002C19E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A38552A308B8DB10002C19E /* popup */,
+				2A38552B308B8DB10002C19E /* background.js */,
+				2A38552C308B8DB10002C19E /* images */,
+				2A38552D308B8DB10002C19E /* content */,
+				2A38552E308B8DB10002C19E /* manifest.json */,
+				2A38552F308B8DB10002C19E /* rules */,
+				2A385530308B8DB10002C19E /* _locales */,
+			);
+			name = Resources;
+			path = "Block4Me Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3854FC308B8DAF0002C19E /* Block4Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A385526308B8DB10002C19E /* Build configuration list for PBXNativeTarget "Block4Me" */;
+			buildPhases = (
+				2A3854F9308B8DAF0002C19E /* Sources */,
+				2A3854FA308B8DAF0002C19E /* Frameworks */,
+				2A3854FB308B8DAF0002C19E /* Resources */,
+				2A385525308B8DB10002C19E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A38551B308B8DB10002C19E /* PBXTargetDependency */,
+			);
+			name = Block4Me;
+			packageProductDependencies = (
+			);
+			productName = Block4Me;
+			productReference = 2A3854FD308B8DAF0002C19E /* Block4Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A385517308B8DB10002C19E /* Block4Me Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A385522308B8DB10002C19E /* Build configuration list for PBXNativeTarget "Block4Me Extension" */;
+			buildPhases = (
+				2A385514308B8DB10002C19E /* Sources */,
+				2A385515308B8DB10002C19E /* Frameworks */,
+				2A385516308B8DB10002C19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block4Me Extension";
+			packageProductDependencies = (
+			);
+			productName = "Block4Me Extension";
+			productReference = 2A385518308B8DB10002C19E /* Block4Me Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3854F5308B8DAF0002C19E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					2A3854FC308B8DAF0002C19E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					2A385517308B8DB10002C19E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 2A3854F8308B8DAF0002C19E /* Build configuration list for PBXProject "Block4Me" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3854F4308B8DAF0002C19E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2A3854FE308B8DAF0002C19E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3854FC308B8DAF0002C19E /* Block4Me */,
+				2A385517308B8DB10002C19E /* Block4Me Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3854FB308B8DAF0002C19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A385507308B8DAF0002C19E /* Icon.png in Resources */,
+				2A385510308B8DAF0002C19E /* Main.storyboard in Resources */,
+				2A38550B308B8DAF0002C19E /* Script.js in Resources */,
+				2A385505308B8DAF0002C19E /* Main.html in Resources */,
+				2A385512308B8DB10002C19E /* Assets.xcassets in Resources */,
+				2A385509308B8DAF0002C19E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A385516308B8DB10002C19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A385536308B8DB10002C19E /* rules in Resources */,
+				2A385533308B8DB10002C19E /* images in Resources */,
+				2A385532308B8DB10002C19E /* background.js in Resources */,
+				2A385535308B8DB10002C19E /* manifest.json in Resources */,
+				2A385534308B8DB10002C19E /* content in Resources */,
+				2A385537308B8DB10002C19E /* _locales in Resources */,
+				2A385531308B8DB10002C19E /* popup in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3854F9308B8DAF0002C19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A38550D308B8DAF0002C19E /* ViewController.swift in Sources */,
+				2A385501308B8DAF0002C19E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A385514308B8DB10002C19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A38551E308B8DB10002C19E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A38551B308B8DB10002C19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A385517308B8DB10002C19E /* Block4Me Extension */;
+			targetProxy = 2A38551A308B8DB10002C19E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A385503308B8DAF0002C19E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A385504308B8DAF0002C19E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		2A38550E308B8DAF0002C19E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A38550F308B8DAF0002C19E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A385520308B8DB10002C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A385521308B8DB10002C19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2A385523308B8DB10002C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block4Me Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block4Me Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmoreau.Block4Me.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A385524308B8DB10002C19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block4Me Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Block4Me Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmoreau.Block4Me.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A385527308B8DB10002C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Block4Me/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Block4Me;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmoreau.Block4Me;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A385528308B8DB10002C19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Block4Me/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Block4Me;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmoreau.Block4Me;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3854F8308B8DAF0002C19E /* Build configuration list for PBXProject "Block4Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A385520308B8DB10002C19E /* Debug */,
+				2A385521308B8DB10002C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A385522308B8DB10002C19E /* Build configuration list for PBXNativeTarget "Block4Me Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A385523308B8DB10002C19E /* Debug */,
+				2A385524308B8DB10002C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A385526308B8DB10002C19E /* Build configuration list for PBXNativeTarget "Block4Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A385527308B8DB10002C19E /* Debug */,
+				2A385528308B8DB10002C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3854F5308B8DAF0002C19E /* Project object */;
+}

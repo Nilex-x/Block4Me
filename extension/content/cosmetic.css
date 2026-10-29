@@ -1,0 +1,8 @@
+ins.adsbygoogle,
+[id^="google_ads"], [id^="div-gpt-ad"], [id^="ad-slot"], [id^="adslot"],
+[class~="ad-banner"], [class~="adsbygoogle"], [class~="ad-container"], [class~="ad-wrapper"],
+[class~="advert"], [class~="advertisement"], [class~="sponsored-ad"],
+[data-ad-slot], [data-ad-unit], [data-google-query-id],
+iframe[src*="doubleclick.net"], iframe[src*="googlesyndication.com"],
+.taboola, [id^="taboola-"], [id^="outbrain"], .OUTBRAIN, .ob-widget
+{ display: none !important; }

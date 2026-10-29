@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Block4Me",
+  "description": "Bloqueur de publicités pour Safari.",
+  "version": "1.1",
+  "default_locale": "fr",
+  "icons": { "16": "images/icon-16.png", "32": "images/icon-32.png", "48": "images/icon-48.png", "128": "images/icon-128.png" },
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "declarative_net_request": {
+    "rule_resources": [
+      { "id": "ads", "enabled": true, "path": "rules/ads.json" },
+      { "id": "youtube", "enabled": true, "path": "rules/youtube.json" }
+    ]
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content/cosmetic.js"],
+    "css": ["content/cosmetic.css"],
+    "run_at": "document_start",
+    "all_frames": false
+  }, {
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["content/youtube.js"],
+    "css": ["content/youtube.css"],
+    "run_at": "document_start",
+    "all_frames": false
+  }],
+  "web_accessible_resources": [{
+    "resources": ["content/youtube-page.js"],
+    "matches": ["*://*.youtube.com/*"]
+  }],
+  "action": {
+    "default_title": "Block4Me",
+    "default_popup": "popup/popup.html",
+    "default_icon": { "16": "images/icon-16.png", "32": "images/icon-32.png" }
+  }
+}

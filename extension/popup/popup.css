@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; --bg:#fff; --fg:#1d1d1f; --muted:#6e6e73; --accent:#0a84ff; --card:#f2f2f7; }
+@media (prefers-color-scheme: dark) { :root { --bg:#1c1c1e; --fg:#f5f5f7; --muted:#98989d; --card:#2c2c2e; } }
+body { width: 280px; margin: 0; padding: 16px; background: var(--bg); color: var(--fg); font: 14px -apple-system, system-ui, sans-serif; }
+h1 { font-size: 16px; margin: 0 0 2px; }
+.host { margin: 0 0 14px; color: var(--muted); word-break: break-all; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; cursor: pointer; }
+.row input { display: none; }
+.switch { width: 40px; height: 24px; border-radius: 12px; background: #8e8e93; position: relative; flex: none; transition: background .2s; }
+.switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; border-radius: 50%; background: #fff; transition: transform .2s; }
+input:checked + .switch { background: #30d158; }
+input:checked + .switch::after { transform: translateX(16px); }
+.stats { display: flex; gap: 8px; margin: 16px 0; }
+.stats div { flex: 1; background: var(--card); border-radius: 10px; padding: 10px; }
+.stats strong { display: block; font-size: 22px; }
+.stats small { color: var(--muted); }
+button { width: 100%; padding: 8px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; font: inherit; cursor: pointer; }

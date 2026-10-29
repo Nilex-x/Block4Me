@@ -1,0 +1,13 @@
+ytd-ad-slot-renderer,
+ytd-in-feed-ad-layout-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-display-ad-renderer,
+ytd-banner-promo-renderer,
+ytd-merch-shelf-renderer,
+ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+#masthead-ad,
+#player-ads,
+.ytp-ad-overlay-container,
+ytm-promoted-sparkles-web-renderer,
+ad-slot-renderer
+{ display: none !important; }
